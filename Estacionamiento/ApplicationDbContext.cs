@@ -13,6 +13,7 @@ namespace Estacionamiento
         public DbSet<Estacionamientos> Estacionamientos { get; set; }
         public DbSet<Vehiculo> Vehiculo { get; set; }
         public DbSet<Ingreso> Ingreso { get; set; }
+        public DbSet<Lugar> Lugar { get; set; }
     }
 }
 
